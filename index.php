@@ -15,7 +15,7 @@ $pessoa = new Pessoa(
 
 $dao->update($pessoa);
 
-echo "Registro atualizado com sucesso!";
+echo "<h3>Registro atualizado com sucesso!</h3>";
 
 
 
@@ -25,5 +25,5 @@ foreach ($lista as $p) {
     echo $p["nome"] . " - ";
     echo $p["cpf"] . " - ";
     echo $p["email"] . " - ";
-    echo $p["idade"] . " anos";
+    echo $p["idade"] . "<br> anos</br>";
 }
